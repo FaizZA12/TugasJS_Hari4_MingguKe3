@@ -233,9 +233,10 @@ async function fetchSurat(id) {
 
 (async () => {
   try {
-    const data = await fetchSurat("abc"); // coba ubah ke angka biar sukses
+    const data = await fetchSurat("abc"); 
     console.log("Surat:", data.data.namaLatin);
   } catch (error) {
     console.error("Error:", error.message);
   }
 })();
+
